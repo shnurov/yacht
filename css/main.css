@@ -6,7 +6,7 @@
 }
 
 .wrapper > * {
-  padding: 10px;
+  padding: 0;
   flex: 1 100%;
   font-family: sans-serif;
 }
@@ -27,21 +27,31 @@
 }
 
 .aside-1 {
-  background: rgb(237, 223, 223);
+  background: #ffffff;
+  font-weight: normal;
+  padding: 0 0px;
 }
 
 .aside-2 {
-  background: rgb(243, 225, 225);
+  background: #ffffff;
+  font-weight: normal;
+  padding: 0 0px;
+}
+
+.aside-3 {
+  background: #ffffff;
+  font-weight: normal;
+  padding: 0 0px;
+}
+
+.aside-4 {
+  background: #ffffff;
+  font-weight: normal;
+  padding: 0 0px;
 }
 
 @media all and (min-width: 600px) {
   .aside {
-    flex: 1 0 0;
-  }
-  .aside2 {
-    flex: 1 0 0;
-  }
-  .aside3 {
     flex: 1 0 0;
   }
 }
@@ -102,4 +112,29 @@ h1 {
 .img {
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px rgb(140, 140, 140);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.cont-table {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  color: #000000;
+}
+
+table {
+  border: 1px solid #000000;
+}
+td {
+  border: 1px solid #000000;
+}
+
+th {
+  border: 1px solid #000000;
 }
