@@ -17,7 +17,9 @@
 }
 
 .footer {
-  background: rgb(146, 140, 140);
+  background: #172c3f;
+  color: #ffffff;
+  padding: 10px;
 }
 
 .main {
@@ -30,24 +32,36 @@
   background: #ffffff;
   font-weight: normal;
   padding: 0 0px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #172c3f;
 }
 
 .aside-2 {
   background: #ffffff;
   font-weight: normal;
   padding: 0 0px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #172c3f;
 }
 
 .aside-3 {
   background: #ffffff;
   font-weight: normal;
   padding: 0 0px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #172c3f;
 }
 
 .aside-4 {
   background: #ffffff;
   font-weight: normal;
   padding: 0 0px;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-width: 3px 3px 3px 3px;
 }
 
 @media all and (min-width: 600px) {
@@ -128,13 +142,38 @@ h1 {
   color: #000000;
 }
 
-table {
-  border: 1px solid #000000;
+able {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  background: #172c3f;
+  color: white;
+  padding: 10px 20px;
+}
+th,
+td {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: white;
 }
 td {
-  border: 1px solid #000000;
+  background: #172c3f;
+}
+th:first-child,
+td:first-child {
+  text-align: left;
 }
 
-th {
-  border: 1px solid #000000;
+.price {
+  background: #172c3f;
+  color: #ffffff;
+}
+
+.inst {
+  background: #172c3f;
+  color: #ffffff;
 }
